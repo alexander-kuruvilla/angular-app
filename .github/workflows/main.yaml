@@ -36,7 +36,7 @@ jobs:
       - name: Download build
         uses: actions/download-artifact@v1
         with:
-          name: your-angular-app
+          name: dist/your-angular-app
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
