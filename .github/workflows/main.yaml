@@ -26,9 +26,10 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        npx angular-cli-ghpages --dir=dist/your-angular-app
-      with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        npx angular-cli-ghpages --dir=dist/your-angular-app --repo ${{ secrets.GH_TOKEN }}
       env:
         CI: true
+        
+        
+        
         
