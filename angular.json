@@ -16,6 +16,7 @@
             "outputPath": "dist/your-angular-app",
             "index": "src/index.html",
             "main": "src/main.ts",
+			"baseHref": "/angular-app/",
             "polyfills": [
               "zone.js"
             ],
