@@ -1,5 +1,7 @@
 name: CI/CD
 
+
+
 on:
   push:
     branches:
@@ -8,8 +10,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
 
     steps:
+    
+    - name: Set up Git
+        run: |
+            git config --global user.email "alexanderkalarickal@gmail.com"
+            git config --global user.name "alexander-kuruvilla"
+            
+            
     - name: Checkout Repository
       uses: actions/checkout@v2
 
