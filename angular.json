@@ -16,7 +16,7 @@
             "outputPath": "dist/your-angular-app",
             "index": "src/index.html",
             "main": "src/main.ts",
-			"baseHref": "/angular-app/",
+            "baseHref": "/angular-app/",
             "polyfills": [
               "zone.js"
             ],
@@ -29,7 +29,9 @@
               "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular-dark-mode/angular-dark-mode.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,7 +93,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/angular-dark-mode/angular-dark-mode.js"
+            ]
           }
         }
       }
