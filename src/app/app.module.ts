@@ -11,12 +11,24 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { TechComponent } from './tech/tech.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    TopbarComponent
+    TopbarComponent,
+    HomeComponent,
+    AboutMeComponent,
+    TechComponent,
+    ResumeComponent,
+    ContactMeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
